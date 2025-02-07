@@ -11,7 +11,4 @@ CSS
 JavaScript
 📌 Setup
 Clone the repository:
-sh
-Kopyala
-Düzenle
 git clone (https://github.com/zeynepccn/magic8ball.git)
