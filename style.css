@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f6f1f1;
+    color: rgb(12, 12, 12);
+}
+/* Kapsayıcı çerçeve */
+#container {
+    width: 350px; /* Kutu genişliği */
+    background-color: #ffffff; /* Beyaz arka plan */
+    padding: 20px;
+    margin: 50px auto; /* Sayfanın ortasına almak için */
+    border: 3px solid #000000; /* Siyah çerçeve */
+    border-radius: 10px; /* Köşeleri yuvarlak yap */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+    text-align: center;
+}
+
+#magicBall {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+    mix-blend-mode: multiply;
+}
+
+#magicBall:hover {
+    transform: rotate(20deg);
+}
+
+input{
+    background-color: white; /* Beyaz arka plan */
+    color: black; /* Siyah yazı */
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* Butonları içeren kapsayıcı */
+#buttonContainer {
+    position: relative;
+    display: inline-block; /* Butonları üst üste hizalamak için */
+}
+
+/* Sor butonu */
+#askButton {
+    background-color: #FFC107; /* Sarı */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#askButton:hover {
+    background-color: #e0a800; /* Daha koyu sarı */
+}
+
+/* Geri dön butonu */
+#backButton {
+    background-color: #dc3545; /* Kırmızı */
+    color: white;
+    display: none; /* Başlangıçta gizli */
+}
+
+#backButton:hover {
+    background-color: #c82333; /* Daha koyu kırmızı */
+}
+
+#response {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
